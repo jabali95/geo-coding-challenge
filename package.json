@@ -23,7 +23,9 @@
     "down": "docker-compose down",
     "prepare": "husky install"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@turf/turf": "^6.5.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "16.1.0",
     "@commitlint/config-conventional": "16.0.0",
